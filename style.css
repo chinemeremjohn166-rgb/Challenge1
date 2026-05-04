@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+    scroll-behavior: smooth;
+
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+body{
+    font-family: "Epilogue",sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    padding: 40px 3%;
+    color: hsl(0, 0%, 8%);
+}
+a{
+    color: teal;
+    text-decoration: none;
+    display: inline-block;
+
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header section{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+   
+   
+}
+nav div{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.btn{
+    border: 1.5px solid hsl(0, 0%, 8%);
+    padding: 12px 20px;
+    border-radius: 15px;
+    color: teal;
+}
+main{
+    margin: 50px 100px 0;
+    display: flex;
+    gap: 100px;
+    align-items: end;
+    justify-content: center;
+}
+main section{
+    width: 50%;
+}
+main div{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+}
+main section:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+h1{
+    font-size: 60px;
+    max-width: 400px;
+}
+main p{
+    line-height: 1.5;
+    color:  hsl(0, 0%, 41%);
+}
+main a{
+    background-color: hsl(0, 0%, 8%);
+    width: fit-content;
+}
+main img{
+    max-width: 500px;
+}
